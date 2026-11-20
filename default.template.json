@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "anchor_default": "bottom_center",
+  "detector": {
+    "name": "yolox_s",
+    "input_size": [640, 640],
+    "weights": "<WEIGHTS_PATH>"
+  },
+  "line": {
+    "p1": [0.20, 0.40],
+    "p2": [0.80, 0.40],
+    "in_direction": "fwd",
+    "in_normal": [0.0, 1.0],
+    "roi": [[0.20, 0.36], [0.80, 0.36], [0.80, 0.44], [0.20, 0.44]]
+  },
+  "input": "<VIDEO_PATH>",
+  "output_dir": "<OUTPUT_DIR>"
+}
